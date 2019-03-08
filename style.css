@@ -1,0 +1,206 @@
+body{
+  background-color:#bed5e2;
+}
+.container-fluid{
+  margin:0px;
+  padding:0px;
+}
+.navbar-inverse {
+    background-color: #223;
+    padding:5px 15px 5px 10px;
+}
+.navbar-inverse .navbar-brand{
+    color:white;
+    font-size:1.5em;
+    float:none;
+    text-align: center;
+}
+.navbar-inverse .navbar-nav > li >a{
+    color: white;
+    margin:5%;
+    font-size: 1.3em;
+    border-radius:5px;
+}
+.navbar-inverse .navbar-nav > li > a:hover{
+    color:#222;
+    box-shadow:3px 3px 2px #000;
+    background-color:#eff0f2;
+}
+.navbar-inverse .navbar-header >button{
+    background-color:#223;
+    padding-top:10px;
+}
+.navbar-inverse .navbar-header >button:hover{
+    background-color:#48db7b;
+    padding-top:10px;
+}
+.navbar-inverse .navbar-header >.active > button:active, .navbar-inverse .navbar-header > .active > button:focus{
+    background-color:#48db7b;
+    padding-top:10px;
+    height: 200%;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active >a:focus{
+     color: #f2fcf5;
+    background-color: #48db7b;                  
+    border-radius: 5px;
+    outline:0;
+
+}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    color: pink;
+    background-color: yellow;
+}
+.navbar-collapse.collapse{
+    overflow:visible;
+  max-height:100% !important;
+}
+.content{
+  padding:3%;
+  padding-bottom:10%;
+  margin:0px;
+}
+.carousel{
+  width:60%;
+  margin:0 auto;
+}
+.carousel-indicators li.active,.carousel-indicators li { 
+    border: 0; 
+}
+.carousel-indicators li {
+  background: #666;
+  margin: 0 3px;
+  width: 12px;
+  height: 12px;
+  }
+.carousel-indicators li.active {
+  background: #fff;
+  margin: 0 3px;
+  }
+.carousel:hover .control-box{ 
+opacity: 1; 
+}
+.carousel:hover a.carousel-control.left {
+    left: 15px; 
+}
+.carousel:hover a.carousel-control.right { 
+    right: 15px; 
+}  
+.carousel-control .control-icon {
+  font-size: 48px;
+  height: 30px;
+  margin-top: -15px;
+  width: 30px;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  }
+.carousel-control .prev { 
+    margin-left:-15px;  
+    left: 50%; 
+}
+.carousel-control .next { 
+    margin-right: -15px; 
+    right: 50%; 
+}
+a.carousel-control.left  { 
+    left: 0; 
+    background: none; 
+    color: yellow;
+    border: 0;
+}
+a.carousel-control.right { 
+    right: 0; 
+    background: none; 
+    color: orange; 
+    border: 0;
+}
+.control-box, a.carousel-control, .carousel-indicators li {
+  -webkit-transition: all 250ms ease;
+  -moz-transition: all 250ms ease;
+  -ms-transition: all 250ms ease;
+  -o-transition: all 250ms ease;
+  transition: all 250ms ease;   
+} 
+@media screen and (max-width: 768px){
+        .carousel{
+        width:100%;
+        margin:0 auto;
+        }
+    }
+@media screen and (min-width: 769px) and (max-width: 1080px){
+        .carousel{
+        width:70%;
+        margin:0 auto;
+        }
+    }
+.jumbotron{
+  margin:0px;
+}
+#home .jumbotron{
+  border-radius:0;
+  color:white;
+  background:url("https://inspirationhut.net/wp-content/uploads/2013/05/12.png") ;
+  opacity:0.9;
+}
+#about .jumbotron{
+  border-radius:0;
+  font-size:1.5em;
+  color:white;
+  background: #015249;
+}
+#quotes .jumbotron{
+  border-radius:0;
+  color:white;
+  background-color:#771120;
+}
+#images .jumbotron{
+  border-radius:0;
+  background-color:#d9d4db;
+}
+#videos .jumbotron{
+  border-radius:0;
+  background-color:#f7f1c5;
+}
+#quotes{
+  background-color:white;
+}
+#quotes li{
+  font-size:20px;
+}
+#quotes a{
+    outline:0;
+}
+img{
+  display:block;
+  margin:0 auto;
+}
+.img-responsive{
+  width:1000px;
+}
+@media screen and (min-width:1001px){
+iframe{
+     padding:5%;
+     margin:0 auto;
+    }
+}
+@media screen and (max-width:1000px){
+    iframe{
+              padding:3%;
+              margin:0 auto;
+    }
+    
+}
+blockquote footer{
+    color:orange;
+}
+#fb{
+    color:white;
+    background color:
+}
+.end{
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+
